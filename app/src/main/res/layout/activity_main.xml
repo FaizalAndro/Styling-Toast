@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/errorBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E44236"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20dp"
+        android:text="ERROR"
+        android:onClick="showButton"/>
+
+    <Button
+        android:id="@+id/successBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6ab04c"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20dp"
+        android:text="SUCCESS"
+        android:onClick="showButton"/>
+    <Button
+        android:id="@+id/infoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#487EB0"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20dp"
+        android:text="INFO"
+        android:onClick="showButton"/>
+    <Button
+        android:id="@+id/warnBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F4C724"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20dp"
+        android:text="WARNING"
+        android:onClick="showButton"/>
+    <Button
+        android:id="@+id/imgBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#01CBC6"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20dp"
+        android:text="ERROR"
+        android:onClick="showButton"/>
+
+
+</LinearLayout>
